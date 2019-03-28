@@ -1,0 +1,7 @@
+fruits={'mangoes':20,'oranges':30,'guavas':10}
+var quantity = 2
+var price = fruits['oranges']*quantity;
+output=(quantity+' '+'oranges'+' '+'for kes'+price);
+function calculatefruitscost(output){return output;}
+console.log(output);
+2 oranges for kes 60
