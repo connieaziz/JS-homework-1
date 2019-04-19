@@ -1,0 +1,27 @@
+function Kiosk () {
+
+	var fruits = ['peach','avocado','melon']
+
+
+        function setFruit (fruit) {return 'melon'}
+
+        function getFruits (fruitslist) {return 'peach','avocado','melon'}
+
+        var fruits = {
+	
+	    setFruit : setFruit
+	
+	    getFruit : getFruits
+
+          }
+
+         return fruits; 
+          }       
+
+       Kiosk.setFruit = 'melon'
+         "melon"
+
+      Kiosk.getFruit = ['peach','avocado','melon']
+
+      ['peach','avocado','melon']
+     
