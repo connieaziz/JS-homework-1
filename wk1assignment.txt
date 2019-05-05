@@ -1,0 +1,7 @@
+THE DIFFERENCE BETWEEN UNDEFINED AND NULL
+
+- undefined means a variable has been declared but hasn't yet been assigned a value.
+- it is a "type".
+
+- null is an "object".
+- it is an assignment value,that can be assigned to a variable as a representation of no value.
