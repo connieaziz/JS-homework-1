@@ -1,0 +1,13 @@
+         Qn1.Write a function that prints all the fruits from a given list of fruits e.g. printFruits(fruits_list)
+
+function printfruits(fruits_list){
+   	fruits_list=["mango", "peach", "melon", "apple"]};
+
+
+         Qn2..Write a function that given a fruit index, it returns the name of a fruit from a list of fruits. e.g getFruit(1, fruits_list), returns 'apples'
+
+function getFruit=["mango", "peach", "melon", "apple"];
+	 getFruit[0];  //mango
+	 getFruit[3];  //apple
+	 
+       
