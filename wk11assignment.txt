@@ -1,0 +1,21 @@
+var body = document.body
+body.style.backgroundColor = 'silver'
+
+var h1 = document.getElementById('title')
+ h1.style.color ='green'
+ 
+
+var sum = document.createElement("li");
+ sum.innerHTML=("Guava")
+ var sum=document.createElementById("fruList");
+fruList.appendChild(sum);
+
+var sum = document.createElement("sum");
+sum.innerHTML=("mchicha")
+var veg= document.createElement("vegList");
+vegList.appendChild(sum);
+ 
+
+ASYNC => a function returns a promise,and wraps non-promises in it. 
+
+AWAIT => JavaScript wait until that promise settles and returns its result.
