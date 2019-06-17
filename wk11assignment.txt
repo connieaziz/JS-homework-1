@@ -1,0 +1,27 @@
+Answer:
+var body = document.body
+body.style.backgroundColor = "silver"
+
+
+var h1 = document.getElementById("title")
+h1.style.color = "green"
+
+
+var add = document.createElement("li");                 
+add.innerHTML = "Guava"
+var addfruit = document.getElementById("fruList")
+addfruit.appendChild(add);
+
+
+var add = document.createElement("li");                 
+add.innerHTML = "Broccoli"
+var addveg = document.getElementById("vegList")
+addveg.appendChild(add);
+
+
+var tell = document.getElementById("tell");
+tell.innerHTML = tell.innerHTML.toUpperCase();
+
+
+var tip = document.getElementById("tip");
+tip.innerHTML = tip.innerHTML.toUpperCase();
