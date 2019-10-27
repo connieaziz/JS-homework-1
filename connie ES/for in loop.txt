@@ -1,0 +1,17 @@
+Qn. How to use the 'for in' loop.
+
+
+var user = {fname:"John", lname:"Doe", age:25}; 
+
+var type = "";
+var x;
+for (x in user) {
+ type += user[x];
+}
+console.log(user);
+	[object Object] {
+	    
+           age: 25,
+           fname: "John",
+           lname: "Doe"
+    }

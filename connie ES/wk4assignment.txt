@@ -1,0 +1,19 @@
+     Qn.Write a program to calculate purchase from a Kiosk for example given the fruit name 'orange' th program should fetch its price (30.00)
+multiply with the quantity requested (2) and return  the total cost in this printed format (2 oranges for KES 60.00)
+
+fruits={'mangoes':20,'oranges':30,'guavas':10}
+
+var quantity = 2
+
+var price = fruits['oranges']*quantity;
+
+output=(quantity+' '+'oranges'+' '+'for kes'+price);
+
+
+    Qn.calculateFruitCost(fruitName, quantity)
+
+function calculatefruitscost(output){return output;}
+
+console.log(output);
+
+2 oranges for kes 60

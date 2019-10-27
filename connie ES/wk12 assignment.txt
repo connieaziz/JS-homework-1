@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Green Kiosk</title>
+	<script >
+            var txt = document.getElementById('txt');
+	      setInterval(changeColor,1000);
+	         function changeColor(){
+		       var r = Math.floor(Math.random()*255);
+		       var g = Math.floor(Math.random()*255);
+		       var b = Math.floor(Math.random()*255);
+			txt.style.color = "red";
+		}
+	
+	if(c1.value == "Fruits") {
+		var Array = ["|","pineapples|pineapples","avocado|avocado","watermelon|Watermelon",];
+	}
+	else
+	if(c2.value == "Vegetables") {
+		var Array = ["|","cabbage|cabbage","tomatoes|Tomatoes","spinach|spinach",];
+	}
+	
+	for(var option in optionArray ){
+		var sum = Array[option].split("|");
+		var newArray = doc.createElement("Array");
+		newArray.num = sum[0];
+		newArray.HTML = sum[1];
+		c2.Array.add(newArray);
+	}
+	}
+	</script>
+	
+</head>
+<body>
+	<!-- <input type="text">
+	<button ="Add();">Add</button>
+	  
+	<script type="text">
+	<hr>
+	Select Fruit/Vegetable:
+	<select id="c1/c2" name="select"></select>
+	<hr>
+	</script>
+</body>
+</html>

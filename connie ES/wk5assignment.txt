@@ -1,0 +1,39 @@
+function getGrade(marks){
+  if(marks>=80){
+    return grade="A";
+  }
+  
+  else if 
+    (marks>=70){
+      return grade="B";
+    }
+  
+  else if
+    (marks>=60){
+      return grade="C";
+    }
+  
+  else if
+    (marks>=50){
+      return grade="D";
+    }
+  
+  else if
+    (marks>=0){
+      return grade="E";
+    }
+  
+  else 
+  {
+      return grade="F";
+    }
+  
+}
+console.log(getGrade(55))
+"D"
+console.log(getGrade(97))
+"A"
+console.log(getGrade(75))
+"B"
+console.log(getGrade(65))
+"C"

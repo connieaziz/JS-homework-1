@@ -1,0 +1,9 @@
+       Qn.THE DIFFERENCE BETWEEN DECLARATION, DEFINITION AND INITIALIZATION.
+
+DEFINITION is showing how something has been implemented, like a variable, class or function.
+
+DECLARATION shows that the variable is registered using a given name within the corresponding scope. E.g.; inside a function.
+
+Example: Var x; 11 – declaration and initialization.
+
+INITIALIZATION - when you declare a variable it’s automatically initialized, which means memory is allocated for the variable by the java script engine.

@@ -1,0 +1,26 @@
+DOM EVENT using js bin
+
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <input id="name" type="text" />
+ <button onclick="alert(getName())" >Click Me</button>
+  <!-- <button onmouseover="alert('button clicked!')" >Click Me</button> -->
+  <!-- <button onmouseout="alert('button clicked!')" >Click Me</button> -->
+</body>
+</html>
+
+JS
+
+var el = document.getElementById("name");
+
+function getName() {
+  return el.value
+}

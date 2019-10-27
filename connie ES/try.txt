@@ -1,0 +1,42 @@
+var img = document.getElementById(img1)
+
+  var body=document.body
+    body.style.backgroundColor="blue"
+    
+  var cat=document.getElementById("cat")
+  alert(cats.innerSibling.value)
+  var cat=document.getElementById("cat")
+  alert(cats.nextSibling)
+  var cat=document.getElementById("cat")
+  alert(cats.innerHTML)
+  
+  var div=document.getElementById("container")
+  
+var cats=document.getElementById("cats")
+var div=cats.parentNode
+cats.parentNode.setAttribute("class","big-color")
+div.setAttribute("class","big-color")
+var cats=document.getElementById("cats")
+cats.innerHTML="homey cat"
+var cats=document.getElementById("cats")
+setTimeout(()=>cats.style.color="red",3000)
+
+var paragraphs=document.getElementsByTagName("p")
+alert(paragraphs [2].innerHTML)
+var dogs=document.getElementById("dogs");
+dogs.style.color="red"
+dogs.setAttribute("sound","homey family")
+var paragraph=document.createElement("p")
+paragraph.innerHTML="Hi guys"
+var div =document.getElementById("container")
+div.appendChild(paragraph)
+
+document.write("oooooh")
+
+var paragraphs=document.getElementsByTagName("p")
+alert(paragraphs [2].innerHTML)
+var dogs=document.etElementById("dogs");
+dogs.style.color="red"
+dogs.setAttribute("sound","homey family")
+var paragraph=document .createElementById("p")
+paragraph.innerHTML="Hi guys"
